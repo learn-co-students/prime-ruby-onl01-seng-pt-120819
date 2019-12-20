@@ -4,12 +4,11 @@ def prime?(value)
   if value <= 1
     return false
   elsif
-    (2..value - 1).each do |i|
+    (2...value).each do |i|
       if value % i == 0
       return false
       end
-    end
   end
-true 
-
+  return true
+  end
 end

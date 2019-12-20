@@ -6,11 +6,5 @@ def prime? (number)
   # binding.pry
    number%num != 0 
   end
-  #if numbers.ea is > 1 
-  #elsif  number/number == Integer
-   # return true
-  #else 
-   #return false 
   end
 
-  # Add  code here!
